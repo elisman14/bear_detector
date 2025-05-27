@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bear']
+
+roboflow:
+  workspace: dataset-8ivkq
+  project: bear-detector-yo5lp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-8ivkq/bear-detector-yo5lp/dataset/1
